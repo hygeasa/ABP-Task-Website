@@ -1,0 +1,51 @@
+#carouselExampleDark {
+    width: 90%;
+    height: 760px;
+    margin: 0 auto;
+    transition: width 0.3s ease;
+}
+
+#carouselContent {
+    height: 800px;
+}
+
+#subHeading {
+    text-align: center;
+    margin: 20px;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    margin: 20px;
+}
+
+#header-logo {
+    font-family: "Allura", cursive;
+    font-size: xx-large;
+    color: #f3517f;
+}
+
+#pink-Button {
+    color: #ffffff;
+    background-color: #f3517f;
+    border-color: #f3517f;
+}
+
+#pink-Button:hover {
+    background-color: #bb2bdb;
+    border-color: #3c0050;
+}
+
+#CategoryCard {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#category-card-container {
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
